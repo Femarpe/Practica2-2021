@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#033E90"
-    android:backgroundTint="@color/prusia"
+    android:backgroundTint="@color/ic_launcher_background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
