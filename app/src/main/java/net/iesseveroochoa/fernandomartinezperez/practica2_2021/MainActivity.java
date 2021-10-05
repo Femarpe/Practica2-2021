@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         agenda = findViewById(R.id.btAgenda);
         agendac = findViewById(R.id.btAgendaC);
+        receta = findViewById(R.id.btReceta);
 
         agenda.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(MainActivity.this,AgendaConstraintActivity.class);
+                startActivity(intent);
+            }
+        });
+        receta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, RecetaActivity.class);
                 startActivity(intent);
             }
         });

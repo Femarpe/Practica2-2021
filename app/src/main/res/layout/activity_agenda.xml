@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#033E90"
-    android:backgroundTint="@color/ic_launcher_background"
+    android:backgroundTint="@color/prusia"
     android:orientation="vertical"
     tools:context=".AgendaActivity">
 
@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:text="@string/nombreContacto"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@android:color/holo_blue_light"
         android:textSize="24sp" />
 
     <LinearLayout
@@ -30,7 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/nombre"
-            android:textSize="18sp" />
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etNombre"
@@ -38,7 +40,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:importantForAutofill="no"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_blue_light" />
 
     </LinearLayout>
 
@@ -53,14 +56,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Apellido"
-            android:textSize="18sp" />
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etApellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="@android:color/holo_blue_light" />
 
     </LinearLayout>
 
@@ -75,7 +81,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/correoE"
-            android:textSize="18sp" />
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -83,7 +91,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/holo_blue_light" />
 
     </LinearLayout>
 
@@ -98,7 +107,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tel"
-            android:textSize="18sp" />
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etTel"
@@ -116,17 +127,20 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/notas"
-        android:textSize="18sp" />
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etNotas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="10"
-        android:background="@color/prusia"
+        android:background="@color/ic_launcher_background"
         android:ems="10"
         android:gravity="start|top"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/holo_blue_light" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -139,6 +153,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
             android:text="@string/Aceptar" />
 
         <Button
@@ -146,6 +161,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
             android:text="@string/Reiniciar" />
 
         <Button
@@ -153,6 +169,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_dark"
             android:text="@string/Salir" />
     </LinearLayout>
 

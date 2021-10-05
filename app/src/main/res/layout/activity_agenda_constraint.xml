@@ -10,14 +10,17 @@
 
     <ImageView
         android:id="@+id/ivAgenda"
-        android:layout_width="251dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="60dp"
-        android:scaleType="fitXY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_fe"
         tools:srcCompat="@drawable/logo_fe" />
 
     <EditText
@@ -87,6 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/btCancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -98,6 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/btOK"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />

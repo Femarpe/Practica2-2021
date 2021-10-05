@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#033E90"
-    android:backgroundTint="@color/ic_launcher_background"
+    android:backgroundTint="@color/prusia"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -14,24 +14,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fernando"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btAgenda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/AGENDA" />
 
     <Button
         android:id="@+id/btAgendaC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/AGENDAC" />
 
     <Button
         android:id="@+id/btReceta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/RECETA" />
 
 </LinearLayout>

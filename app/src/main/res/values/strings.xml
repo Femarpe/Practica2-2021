@@ -16,11 +16,11 @@
     <string name="btOK">OK</string>
     <string name="btCancel">CANCEL</string>
     <string name="acNombre">nombre:</string>
-    <string name="nombreAutor">"Autor"</string>
+    <string name="nombreAutor">Autor</string>
     <string name="Titulo">"Titulo del producto"</string>
-    <string name="descripcion"> "Descrpcion"</string>
+    <string name="descripcion"> Descrpcion</string>
     <string name="delore">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="Ingredienttes">Ingredientes</string>
+    <string name="Ingredientes">Ingredientes</string>
     <string name="ingrelo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="Recetate">Receta</string>
     <string name="recetalo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
@@ -28,5 +28,9 @@
     <string name="vacio" />
     <string name="telefono">Telefono:</string>
     <string name="correo">Correo:</string>
+    <string name="tituliReceta">Guiso de Ternera</string>
+    <string name="nombreAutorReceta">Nathalie Perez Marroqui</string>
+    <string name="textoDescripcion">Este guiso tiene un sabor muy hogareño y clasico</string>
+    <string name="textoIngredientes">600g de ternera de garreta, 1 cebolla, 1 cabeza de ajo,q  1 vaso de vino tinto, rayadura de un tomate, 75g de aceite de oliva, 1 cucharada de sal, medio litro de caldo de carne</string>
 
 </resources>
