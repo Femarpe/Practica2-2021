@@ -7,7 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class AgendaConstraintActivity extends AppCompatActivity {
-Button ok,cancel;
+    Button ok, cancel;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
