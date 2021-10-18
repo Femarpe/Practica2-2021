@@ -21,26 +21,20 @@ public class MainActivity extends AppCompatActivity {
         agendac = findViewById(R.id.btAgendaC);
         receta = findViewById(R.id.btReceta);
 
-        agenda.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,AgendaActivity.class);
-                startActivity(intent);
-            }
+        agenda.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, AgendaActivity.class);
+            startActivity(intent);
+
         });
-        agendac.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this,AgendaConstraintActivity.class);
-                startActivity(intent);
-            }
+        agendac.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, AgendaConstraintActivity.class);
+            startActivity(intent);
+
         });
-        receta.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, RecetaActivity.class);
-                startActivity(intent);
-            }
+        receta.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, RecetaActivity.class);
+            startActivity(intent);
+
         });
     }
 
