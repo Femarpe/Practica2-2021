@@ -13,7 +13,6 @@ public class AgendaActivity extends AppCompatActivity {
     EditText nombre, apellido, email, telefono, notas;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
