@@ -14,17 +14,11 @@ Button ok,cancel;
         setContentView(R.layout.activity_agenda_constraint);
         ok = findViewById(R.id.btOK);
         cancel = findViewById(R.id.btCancel);
-        ok.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                    finish();
-            }
+        ok.setOnClickListener(view -> {
+            finish();
         });
-        cancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
+        cancel.setOnClickListener(view -> {
+            finish();
         });
     }
 }
